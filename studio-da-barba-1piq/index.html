@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Studio da Barba</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+:root{--c:#2C3E50}
+html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif}
+.acc{background:var(--c)}
+.acct{color:var(--c)}
+.glow{background:radial-gradient(60% 55% at 50% 0%,color-mix(in srgb,var(--c) 38%,transparent),transparent)}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+details summary::-webkit-details-marker{display:none}
+</style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased">
+<header class="sticky top-0 z-20 border-b border-white/10 bg-slate-950/70 backdrop-blur">
+  <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+    <a href="#" class="font-bold tracking-tight">Studio da Barba</a>
+    <nav class="hidden gap-8 text-sm text-slate-300 md:flex">
+      <a href="#servicos" class="hover:text-white">Serviços</a><a href="#sobre" class="hover:text-white">Sobre</a>
+      <a href="#como" class="hover:text-white">Como funciona</a><a href="#faq" class="hover:text-white">Dúvidas</a>
+    </nav>
+    <a href="#contato" class="acc rounded-full px-5 py-2 text-sm font-semibold text-white">Agende agora</a>
+  </div>
+</header>
+
+<section class="glow">
+  <div class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 lg:grid-cols-2 lg:py-28">
+    <div class="reveal">
+      <p class="text-sm font-semibold uppercase tracking-widest acct">Barbearia em Curitiba</p>
+      <h1 class="mt-4 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">Corte e estilo de alto nível em Curitiba</h1>
+      <p class="mt-6 text-lg text-slate-300">Descubra a experiência premium da Studio da Barba: agende online, fique por dentro das promoções e garanta seu visual impecável sem perder tempo.</p>
+      <div class="mt-10 flex flex-wrap gap-4">
+        <a href="#contato" class="acc rounded-full px-8 py-4 font-semibold text-white shadow-lg shadow-black/30 transition hover:scale-105">Agende agora</a>
+        <a href="#servicos" class="rounded-full border border-white/20 px-8 py-4 font-semibold transition hover:bg-white/10">Conheça os serviços</a>
+      </div>
+    </div>
+    <div class="reveal">
+      <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTMzNjAxfDB8MXxzZWFyY2h8MXx8YmFyYmVyc2hvcCUyMGludGVyaW9yJTIwbW9kZXJufGVufDF8MHx8fDE3OTQ2NzMxMTF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="black leather barber chair near brown brick wall" loading="lazy" class="h-80 w-full rounded-3xl object-cover shadow-2xl ring-1 ring-white/10 sm:h-[26rem]">
+    </div>
+  </div>
+</section>
+
+<section class="border-y border-white/10 bg-white/5">
+  <div class="mx-auto grid max-w-6xl gap-4 px-6 py-6 text-center text-sm font-semibold sm:grid-cols-3">
+    <div class="flex items-center justify-center gap-2"><span class="acct">✔</span>Atendimento personalizado</div><div class="flex items-center justify-center gap-2"><span class="acct">✔</span>Profissionais certificados</div><div class="flex items-center justify-center gap-2"><span class="acct">✔</span>Ambiente moderno e relaxante</div>
+  </div>
+</section>
+
+<section id="servicos" class="mx-auto max-w-6xl px-6 py-20">
+  <h2 class="reveal text-center text-3xl font-bold tracking-tight sm:text-4xl">O que fazemos por você</h2>
+  <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+  <div class="reveal rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:bg-white/10">
+    <div class="acc mb-4 flex h-11 w-11 items-center justify-center rounded-xl text-lg font-bold text-white">1</div>
+    <h3 class="text-lg font-semibold">Corte clássico</h3>
+    <p class="mt-2 text-slate-300">Corte tradicional com precisão, adaptado ao seu estilo e preferências.</p>
+  </div>
+  <div class="reveal rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:bg-white/10">
+    <div class="acc mb-4 flex h-11 w-11 items-center justify-center rounded-xl text-lg font-bold text-white">2</div>
+    <h3 class="text-lg font-semibold">Barba modelada</h3>
+    <p class="mt-2 text-slate-300">Desenho e acabamento da barba com técnicas modernas para um look impecável.</p>
+  </div>
+  <div class="reveal rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:bg-white/10">
+    <div class="acc mb-4 flex h-11 w-11 items-center justify-center rounded-xl text-lg font-bold text-white">3</div>
+    <h3 class="text-lg font-semibold">Ritual de barba</h3>
+    <p class="mt-2 text-slate-300">Limpeza, hidratação e modelagem completa para barba saudável e estilosa.</p>
+  </div>
+  <div class="reveal rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:bg-white/10">
+    <div class="acc mb-4 flex h-11 w-11 items-center justify-center rounded-xl text-lg font-bold text-white">4</div>
+    <h3 class="text-lg font-semibold">Corte infantil</h3>
+    <p class="mt-2 text-slate-300">Corte cuidadoso e divertido para os pequenos, com atenção ao conforto.</p>
+  </div>
+  <div class="reveal rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:bg-white/10">
+    <div class="acc mb-4 flex h-11 w-11 items-center justify-center rounded-xl text-lg font-bold text-white">5</div>
+    <h3 class="text-lg font-semibold">Design de sobrancelha masculina</h3>
+    <p class="mt-2 text-slate-300">Aparar e definir sobrancelhas para realçar a expressão facial.</p>
+  </div>
+  <div class="reveal rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:bg-white/10">
+    <div class="acc mb-4 flex h-11 w-11 items-center justify-center rounded-xl text-lg font-bold text-white">6</div>
+    <h3 class="text-lg font-semibold">Tratamento facial masculino</h3>
+    <p class="mt-2 text-slate-300">Limpeza profunda e revitalização da pele para um visual fresco.</p>
+  </div></div>
+</section>
+
+<section id="sobre" class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 lg:grid-cols-2">
+  <div class="reveal"><img src="https://images.unsplash.com/photo-1592647420148-bfcc177e2117?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTMzNjAxfDB8MXxzZWFyY2h8Mnx8YmFyYmVyc2hvcCUyMGludGVyaW9yJTIwbW9kZXJufGVufDF8MHx8fDE3OTQ2NzMxMTF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="red and white leather padded chair" loading="lazy" class="h-80 w-full rounded-3xl object-cover ring-1 ring-white/10"></div>
+  <div class="reveal">
+    <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Sobre a Studio da Barba</h2>
+    <p class="mt-6 text-lg leading-relaxed text-slate-300">A Studio da Barba traz para Curitiba um espaço onde tradição e modernidade se encontram. Nosso objetivo é proporcionar cortes e cuidados que realcem a confiança de cada cliente.</p>
+    <a href="https://www.google.com/maps/search/?api=1&amp;query=Studio%20da%20Barba%20Barbearia%20em%20Curitiba" target="_blank" rel="noopener" class="acct mt-6 inline-block font-semibold underline">Ver no Google Maps →</a>
+  </div>
+</section>
+
+<section id="como" class="mx-auto max-w-6xl px-6 py-20">
+  <h2 class="reveal text-center text-3xl font-bold tracking-tight sm:text-4xl">Como funciona</h2>
+  <div class="mt-12 grid gap-6 md:grid-cols-3">
+  <div class="reveal relative rounded-2xl border border-white/10 bg-white/5 p-6">
+    <span class="acct text-5xl font-extrabold opacity-80">01</span>
+    <h3 class="mt-3 text-lg font-semibold">Escolha o serviço</h3>
+    <p class="mt-2 text-slate-300">Selecione o corte ou tratamento desejado no nosso site ou app.</p>
+  </div>
+  <div class="reveal relative rounded-2xl border border-white/10 bg-white/5 p-6">
+    <span class="acct text-5xl font-extrabold opacity-80">02</span>
+    <h3 class="mt-3 text-lg font-semibold">Marque o horário</h3>
+    <p class="mt-2 text-slate-300">Escolha a data e horário disponíveis e confirme sua reserva.</p>
+  </div>
+  <div class="reveal relative rounded-2xl border border-white/10 bg-white/5 p-6">
+    <span class="acct text-5xl font-extrabold opacity-80">03</span>
+    <h3 class="mt-3 text-lg font-semibold">Aproveite a experiência</h3>
+    <p class="mt-2 text-slate-300">Compareça ao salão, relaxe e saia renovado com um visual impecável.</p>
+  </div></div>
+</section>
+
+
+<section class="mx-auto max-w-6xl px-6 py-16">
+  <h2 class="reveal text-center text-3xl font-bold tracking-tight sm:text-4xl">Galeria</h2>
+  <div class="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4">
+    <div class="reveal overflow-hidden rounded-2xl"><img src="https://images.unsplash.com/photo-1678356164573-9a534fe43958?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTMzNjAxfDB8MXxzZWFyY2h8M3x8YmFyYmVyc2hvcCUyMGludGVyaW9yJTIwbW9kZXJufGVufDF8MHx8fDE3OTQ2NzMxMTF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a barber shop with two men standing in front of it" loading="lazy" class="h-44 w-full object-cover transition duration-500 hover:scale-105 sm:h-56"></div><div class="reveal overflow-hidden rounded-2xl"><img src="https://images.unsplash.com/photo-1516470930795-6ba2564824aa?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTMzNjAxfDB8MXxzZWFyY2h8NHx8YmFyYmVyc2hvcCUyMGludGVyaW9yJTIwbW9kZXJufGVufDF8MHx8fDE3OTQ2NzMxMTF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="red city bike leaning on bench" loading="lazy" class="h-44 w-full object-cover transition duration-500 hover:scale-105 sm:h-56"></div><div class="reveal overflow-hidden rounded-2xl"><img src="https://images.unsplash.com/photo-1633121050918-ab208f1508b7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTMzNjAxfDB8MXxzZWFyY2h8NXx8YmFyYmVyc2hvcCUyMGludGVyaW9yJTIwbW9kZXJufGVufDF8MHx8fDE3OTQ2NzMxMTF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a barber shop sign on the side of a building" loading="lazy" class="h-44 w-full object-cover transition duration-500 hover:scale-105 sm:h-56"></div><div class="reveal overflow-hidden rounded-2xl"><img src="https://images.unsplash.com/photo-1672257493626-038f96997ade?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTMzNjAxfDB8MXxzZWFyY2h8Nnx8YmFyYmVyc2hvcCUyMGludGVyaW9yJTIwbW9kZXJufGVufDF8MHx8fDE3OTQ2NzMxMTF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="a barber shop with a brick wall and lots of chairs" loading="lazy" class="h-44 w-full object-cover transition duration-500 hover:scale-105 sm:h-56"></div>
+  </div>
+</section>
+
+<section id="faq" class="mx-auto max-w-3xl px-6 py-20">
+  <h2 class="reveal text-center text-3xl font-bold tracking-tight sm:text-4xl">Perguntas frequentes</h2>
+  <div class="mt-10 space-y-4">
+  <details class="reveal group rounded-2xl border border-white/10 bg-white/5 p-5">
+    <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">Como faço para agendar um horário?<span class="acct text-2xl transition group-open:rotate-45">+</span></summary>
+    <p class="mt-3 text-slate-300">Clique no botão &quot;Agende agora&quot; e siga as instruções. Em caso de dúvidas, entre em contato conosco.</p>
+  </details>
+  <details class="reveal group rounded-2xl border border-white/10 bg-white/5 p-5">
+    <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">Quais formas de pagamento são aceitas?<span class="acct text-2xl transition group-open:rotate-45">+</span></summary>
+    <p class="mt-3 text-slate-300">Aceitamos cartões, PIX e dinheiro. Para mais detalhes, fale conosco.</p>
+  </details>
+  <details class="reveal group rounded-2xl border border-white/10 bg-white/5 p-5">
+    <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">Posso mudar o horário da minha reserva?<span class="acct text-2xl transition group-open:rotate-45">+</span></summary>
+    <p class="mt-3 text-slate-300">Sim, basta acessar sua reserva e escolher outro horário disponível ou nos chamar.</p>
+  </details>
+  <details class="reveal group rounded-2xl border border-white/10 bg-white/5 p-5">
+    <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">Vocês oferecem promoções especiais?<span class="acct text-2xl transition group-open:rotate-45">+</span></summary>
+    <p class="mt-3 text-slate-300">Sim, acompanhe nossas redes sociais e newsletter para ficar por dentro das ofertas. Entre em contato para saber mais.</p>
+  </details></div>
+</section>
+
+<section id="contato" class="mx-auto max-w-4xl px-6 pb-24">
+  <div class="reveal glow rounded-3xl border border-white/10 bg-white/5 p-10 text-center sm:p-16">
+    <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Vamos conversar?</h2>
+    <p class="mx-auto mt-4 max-w-xl text-slate-300">Agende agora e receba um atendimento personalizado, sem compromisso.</p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      
+      
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Studio%20da%20Barba%20Barbearia%20em%20Curitiba" target="_blank" rel="noopener" class="rounded-full border border-white/20 px-8 py-4 font-semibold hover:bg-white/10">Como chegar</a>
+    </div>
+  </div>
+</section>
+
+<footer class="border-t border-white/10 py-8 text-center text-xs text-slate-500">
+  <p>Site de demonstração criado para Studio da Barba.</p><p class="mt-2">Fotos: <a class="underline" href="https://unsplash.com/@onatecan?utm_source=propostas_mvp&amp;utm_medium=referral" target="_blank" rel="noopener">Nathon Oski</a>, <a class="underline" href="https://unsplash.com/@andrereispt?utm_source=propostas_mvp&amp;utm_medium=referral" target="_blank" rel="noopener">André Reis</a>, <a class="underline" href="https://unsplash.com/@federicotonini?utm_source=propostas_mvp&amp;utm_medium=referral" target="_blank" rel="noopener">Federico Tonini</a>, <a class="underline" href="https://unsplash.com/@guusbaggermans?utm_source=propostas_mvp&amp;utm_medium=referral" target="_blank" rel="noopener">Guus Baggermans</a>, <a class="underline" href="https://unsplash.com/@manorospo_studio?utm_source=propostas_mvp&amp;utm_medium=referral" target="_blank" rel="noopener">Julien Orliac</a>, <a class="underline" href="https://unsplash.com/@snipi?utm_source=propostas_mvp&amp;utm_medium=referral" target="_blank" rel="noopener">František Čaník</a> / <a class="underline" href="https://unsplash.com/?utm_source=propostas_mvp&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></p>
+</footer>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
