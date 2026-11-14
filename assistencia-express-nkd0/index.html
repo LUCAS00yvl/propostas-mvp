@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Assistência Express</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+:root{--c:#2C3E50}
+html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif}
+.acc{background:var(--c)}
+.acct{color:var(--c)}
+.glow{background:radial-gradient(60% 55% at 50% 0%,color-mix(in srgb,var(--c) 38%,transparent),transparent)}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+details summary::-webkit-details-marker{display:none}
+</style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased">
+<header class="sticky top-0 z-20 border-b border-white/10 bg-slate-950/70 backdrop-blur">
+  <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+    <a href="#" class="font-bold tracking-tight">Assistência Express</a>
+    <nav class="hidden gap-8 text-sm text-slate-300 md:flex">
+      <a href="#servicos" class="hover:text-white">Serviços</a><a href="#sobre" class="hover:text-white">Sobre</a>
+      <a href="#como" class="hover:text-white">Como funciona</a><a href="#faq" class="hover:text-white">Dúvidas</a>
+    </nav>
+    <a href="https://wa.me/5541998768067?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Assist%C3%AAncia%20Express%20e%20gostaria%20de%20um%20or%C3%A7amento." class="acc rounded-full px-5 py-2 text-sm font-semibold text-white">Solicite Agora</a>
+  </div>
+</header>
+
+<section class="glow">
+  <div class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 lg:grid-cols-2 lg:py-28">
+    <div class="reveal">
+      <p class="text-sm font-semibold uppercase tracking-widest acct">Assistência Técnica em Curitiba</p>
+      <h1 class="mt-4 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">Assistência Express: Seu conserto rápido em Curitiba</h1>
+      <p class="mt-6 text-lg text-slate-300">Serviço de assistência técnica rápido, confiável e com atendimento personalizado para eletrônicos e eletrodomésticos. Resolva seu problema sem sair de casa.</p>
+      <div class="mt-10 flex flex-wrap gap-4">
+        <a href="https://wa.me/5541998768067?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Assist%C3%AAncia%20Express%20e%20gostaria%20de%20um%20or%C3%A7amento." class="acc rounded-full px-8 py-4 font-semibold text-white shadow-lg shadow-black/30 transition hover:scale-105">Solicite Agora</a>
+        <a href="#servicos" class="rounded-full border border-white/20 px-8 py-4 font-semibold transition hover:bg-white/10">Conheça os serviços</a>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="acc h-80 w-full rounded-3xl opacity-60 sm:h-[26rem]"></div>
+    </div>
+  </div>
+</section>
+
+<section class="border-y border-white/10 bg-white/5">
+  <div class="mx-auto grid max-w-6xl gap-4 px-6 py-6 text-center text-sm font-semibold sm:grid-cols-3">
+    <div class="flex items-center justify-center gap-2"><span class="acct">✔</span>Atendimento em até 24h</div><div class="flex items-center justify-center gap-2"><span class="acct">✔</span>Técnicos certificados</div><div class="flex items-center justify-center gap-2"><span class="acct">✔</span>Peças originais garantidas</div>
+  </div>
+</section>
+
+<section id="servicos" class="mx-auto max-w-6xl px-6 py-20">
+  <h2 class="reveal text-center text-3xl font-bold tracking-tight sm:text-4xl">O que fazemos por você</h2>
+  <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+  <div class="reveal rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:bg-white/10">
+    <div class="acc mb-4 flex h-11 w-11 items-center justify-center rounded-xl text-lg font-bold text-white">1</div>
+    <h3 class="text-lg font-semibold">Reparo de smartphones</h3>
+    <p class="mt-2 text-slate-300">Diagnóstico e conserto de telas quebradas, baterias e componentes internos com garantia.</p>
+  </div>
+  <div class="reveal rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:bg-white/10">
+    <div class="acc mb-4 flex h-11 w-11 items-center justify-center rounded-xl text-lg font-bold text-white">2</div>
+    <h3 class="text-lg font-semibold">Manutenção de notebooks</h3>
+    <p class="mt-2 text-slate-300">Formatação, troca de peças e otimização de desempenho para todos os modelos.</p>
+  </div>
+  <div class="reveal rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:bg-white/10">
+    <div class="acc mb-4 flex h-11 w-11 items-center justify-center rounded-xl text-lg font-bold text-white">3</div>
+    <h3 class="text-lg font-semibold">Conserto de TVs</h3>
+    <p class="mt-2 text-slate-300">Reparo de painéis, fontes e som, devolvendo a qualidade de imagem.</p>
+  </div>
+  <div class="reveal rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:bg-white/10">
+    <div class="acc mb-4 flex h-11 w-11 items-center justify-center rounded-xl text-lg font-bold text-white">4</div>
+    <h3 class="text-lg font-semibold">Assistência a eletrodomésticos</h3>
+    <p class="mt-2 text-slate-300">Reparo de geladeiras, máquinas de lavar e micro‑ondas com peças originais.</p>
+  </div>
+  <div class="reveal rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:bg-white/10">
+    <div class="acc mb-4 flex h-11 w-11 items-center justify-center rounded-xl text-lg font-bold text-white">5</div>
+    <h3 class="text-lg font-semibold">Suporte remoto</h3>
+    <p class="mt-2 text-slate-300">Atendimento online para resolução de problemas de software e configuração.</p>
+  </div>
+  <div class="reveal rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:bg-white/10">
+    <div class="acc mb-4 flex h-11 w-11 items-center justify-center rounded-xl text-lg font-bold text-white">6</div>
+    <h3 class="text-lg font-semibold">Serviço de coleta e entrega</h3>
+    <p class="mt-2 text-slate-300">Retirada no local e devolução do aparelho consertado, comodidade total para o cliente.</p>
+  </div></div>
+</section>
+
+<section id="sobre" class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 lg:grid-cols-2">
+  <div class="reveal"><div class="acc h-80 w-full rounded-3xl opacity-40"></div></div>
+  <div class="reveal">
+    <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Sobre a Assistência Express</h2>
+    <p class="mt-6 text-lg leading-relaxed text-slate-300">A Assistência Express oferece soluções rápidas e eficientes para seus dispositivos, com equipe técnica especializada. Nosso foco é garantir a satisfação do cliente, proporcionando tranquilidade e confiança em cada serviço.</p>
+    <a href="https://www.google.com/maps/search/?api=1&amp;query=Assist%C3%AAncia%20Express%20Assist%C3%AAncia%20T%C3%A9cnica%20em%20Curitiba" target="_blank" rel="noopener" class="acct mt-6 inline-block font-semibold underline">Ver no Google Maps →</a>
+  </div>
+</section>
+
+<section id="como" class="mx-auto max-w-6xl px-6 py-20">
+  <h2 class="reveal text-center text-3xl font-bold tracking-tight sm:text-4xl">Como funciona</h2>
+  <div class="mt-12 grid gap-6 md:grid-cols-3">
+  <div class="reveal relative rounded-2xl border border-white/10 bg-white/5 p-6">
+    <span class="acct text-5xl font-extrabold opacity-80">01</span>
+    <h3 class="mt-3 text-lg font-semibold">Agende online</h3>
+    <p class="mt-2 text-slate-300">Preencha o formulário ou ligue para solicitar o serviço desejado.</p>
+  </div>
+  <div class="reveal relative rounded-2xl border border-white/10 bg-white/5 p-6">
+    <span class="acct text-5xl font-extrabold opacity-80">02</span>
+    <h3 class="mt-3 text-lg font-semibold">Coleta ou entrega</h3>
+    <p class="mt-2 text-slate-300">Nosso técnico retira o equipamento ou recebe no local, conforme sua preferência.</p>
+  </div>
+  <div class="reveal relative rounded-2xl border border-white/10 bg-white/5 p-6">
+    <span class="acct text-5xl font-extrabold opacity-80">03</span>
+    <h3 class="mt-3 text-lg font-semibold">Reparo e devolução</h3>
+    <p class="mt-2 text-slate-300">Consertamos o aparelho e retornamos com garantia de qualidade e prazo.</p>
+  </div></div>
+</section>
+
+
+
+<section id="faq" class="mx-auto max-w-3xl px-6 py-20">
+  <h2 class="reveal text-center text-3xl font-bold tracking-tight sm:text-4xl">Perguntas frequentes</h2>
+  <div class="mt-10 space-y-4">
+  <details class="reveal group rounded-2xl border border-white/10 bg-white/5 p-5">
+    <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">Qual o prazo para o conserto?<span class="acct text-2xl transition group-open:rotate-45">+</span></summary>
+    <p class="mt-3 text-slate-300">O prazo varia conforme o problema; entre em contato para uma estimativa detalhada.</p>
+  </details>
+  <details class="reveal group rounded-2xl border border-white/10 bg-white/5 p-5">
+    <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">Vocês utilizam peças originais?<span class="acct text-2xl transition group-open:rotate-45">+</span></summary>
+    <p class="mt-3 text-slate-300">Sim, trabalhamos apenas com peças originais ou certificadas. Consulte-nos para mais detalhes.</p>
+  </details>
+  <details class="reveal group rounded-2xl border border-white/10 bg-white/5 p-5">
+    <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">Como funciona a coleta do equipamento?<span class="acct text-2xl transition group-open:rotate-45">+</span></summary>
+    <p class="mt-3 text-slate-300">Agendamos a retirada no endereço informado; entre em contato para confirmar o horário.</p>
+  </details>
+  <details class="reveal group rounded-2xl border border-white/10 bg-white/5 p-5">
+    <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">Qual a garantia oferecida?<span class="acct text-2xl transition group-open:rotate-45">+</span></summary>
+    <p class="mt-3 text-slate-300">Todos os serviços possuem garantia; fale conosco para entender as condições específicas.</p>
+  </details></div>
+</section>
+
+<section id="contato" class="mx-auto max-w-4xl px-6 pb-24">
+  <div class="reveal glow rounded-3xl border border-white/10 bg-white/5 p-10 text-center sm:p-16">
+    <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Vamos conversar?</h2>
+    <p class="mx-auto mt-4 max-w-xl text-slate-300">Solicite Agora e receba um atendimento personalizado, sem compromisso.</p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a href="https://wa.me/5541998768067?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Assist%C3%AAncia%20Express%20e%20gostaria%20de%20um%20or%C3%A7amento." class="acc rounded-full px-8 py-4 font-semibold text-white">Chamar no WhatsApp</a>
+      <a href="tel:+5541998768067" class="rounded-full border border-white/20 px-8 py-4 font-semibold hover:bg-white/10">Ligar: (41) 99876-8067</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Assist%C3%AAncia%20Express%20Assist%C3%AAncia%20T%C3%A9cnica%20em%20Curitiba" target="_blank" rel="noopener" class="rounded-full border border-white/20 px-8 py-4 font-semibold hover:bg-white/10">Como chegar</a>
+    </div>
+  </div>
+</section>
+
+<footer class="border-t border-white/10 py-8 text-center text-xs text-slate-500">
+  <p>Site de demonstração criado para Assistência Express.</p>
+</footer>
+<a href="https://wa.me/5541998768067?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Assist%C3%AAncia%20Express%20e%20gostaria%20de%20um%20or%C3%A7amento." aria-label="WhatsApp" class="fixed bottom-5 right-5 z-30 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-2xl text-white shadow-xl">💬</a>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
